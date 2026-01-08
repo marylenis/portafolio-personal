@@ -7,8 +7,8 @@
 ## 📊 Resumen Ejecutivo
 
 - **Total de tareas:** 56
-- **Completadas:** 13 (Fase 1, 2 y 3)
-- **Pendientes:** 43
+- **Completadas:** 20 (Fase 1, 2, 3 y 4)
+- **Pendientes:** 36
 - **Objetivo:** Crear portafolio optimizado para contratación, no para marketing
 
 ---
@@ -80,32 +80,32 @@
 ## 🛠️ Fase 4: Stack Técnico (7 tareas)
 
 ### stack-1
-**Estado:** ⏳ Pendiente  
+**Estado:** ✅ Completada  
 **Descripción:** Crear componente StackSection con estructura de categorías (Generative AI, Frameworks, Datos, Engineering, Automation)
 
 ### stack-2
-**Estado:** ⏳ Pendiente  
+**Estado:** ✅ Completada  
 **Descripción:** Implementar visualización de stack Generative AI (LLMs, Prompt engineering, RAG, Agentes) - sin barras de porcentaje
 
 ### stack-3
-**Estado:** ⏳ Pendiente  
+**Estado:** ✅ Completada  
 **Descripción:** Agregar sección Frameworks (Agno) con diseño escaneable
 
 ### stack-4
-**Estado:** ⏳ Pendiente  
+**Estado:** ✅ Completada  
 **Descripción:** Implementar sección Datos (Vector DBs: Pinecone, LanceDB, Embeddings & chunking)
 
 ### stack-5
-**Estado:** ⏳ Pendiente  
+**Estado:** ✅ Completada  
 **Descripción:** Agregar sección Engineering (Python, FastAPI, Docker, Git) con iconos o badges
 
 ### stack-6
-**Estado:** ⏳ Pendiente  
+**Estado:** ✅ Completada  
 **Descripción:** Implementar sección Automation (n8n workflows con LLMs y APIs)
 
 ### stack-7
-**Estado:** ⏳ Pendiente  
-**Descripción:** Aplicar diseño escaneable (15 segundos) con grid o lista visual clara, sin niveles básico/intermedio
+**Estado:** ✅ Completada  
+**Descripción:** Aplicar diseño escaneable (15 segundos) con grid o lista visual clara, sin niveles básico/intermedio)
 
 ---
 
@@ -349,9 +349,9 @@
 ## 📊 Tracking de Progreso
 
 - **Total:** 56 tareas
-- **Completadas:** 13
+- **Completadas:** 20
 - **En progreso:** 0
-- **Pendientes:** 43
+- **Pendientes:** 36
 
 ---
 
