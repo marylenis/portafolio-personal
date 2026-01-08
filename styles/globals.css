@@ -432,6 +432,146 @@ a:hover {
   margin-top: var(--spacing-md);
 }
 
+/* Agents Section */
+.agents {
+  background-color: var(--color-background);
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-text-light);
+  max-width: 800px;
+  margin: 0 auto var(--spacing-3xl);
+}
+
+.agents__content {
+  display: grid;
+  gap: var(--spacing-3xl);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.agents__item {
+  padding: var(--spacing-xl);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background-color: var(--color-background);
+}
+
+.agents__item h3 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+}
+
+.agents__item p {
+  margin-bottom: var(--spacing-md);
+  line-height: 1.7;
+}
+
+.agents__item ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: var(--spacing-md) 0;
+  display: grid;
+  gap: var(--spacing-sm);
+}
+
+.agents__item li {
+  line-height: 1.6;
+}
+
+.agents__item li strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.agents__workflow {
+  display: grid;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
+}
+
+.workflow-step {
+  padding: var(--spacing-md);
+  background-color: rgba(0, 102, 204, 0.05);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 4px;
+}
+
+.workflow-step h4 {
+  font-size: var(--font-size-base);
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-accent);
+}
+
+.workflow-step p {
+  margin: 0;
+  font-size: var(--font-size-sm);
+}
+
+.agents__example {
+  margin-top: var(--spacing-xl);
+  padding: var(--spacing-xl);
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+}
+
+.agents__example h3 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-lg);
+}
+
+.example-flow {
+  display: grid;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.flow-step {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: flex-start;
+  padding: var(--spacing-md);
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+}
+
+.flow-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  background-color: var(--color-accent);
+  color: white;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+}
+
+.flow-step p {
+  margin: 0;
+  flex: 1;
+}
+
+.flow-step strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.example-note {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  font-style: italic;
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
 @media (max-width: 1024px) {
   .projects__grid {
     grid-template-columns: 1fr;

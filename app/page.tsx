@@ -1,6 +1,7 @@
 import HeroSection from '../sections/HeroSection'
 import StackSection from '../sections/StackSection'
 import ProjectsSection from '../sections/ProjectsSection'
+import AgentsSection from '../sections/AgentsSection'
 
 export default function Home() {
   return (
@@ -16,33 +17,9 @@ export default function Home() {
 
       <ProjectsSection />
 
-      <section id="agentes" className="section">
-        <div className="container">
-          <h2>Agentes y Automatizaciones</h2>
-          <p>Placeholder: agentes con LangGraph, multi-agentes, n8n.</p>
-        </div>
-      </section>
+      <AgentsSection />
 
-      <section id="produccion" className="section">
-        <div className="container">
-          <h2>Producción y Calidad</h2>
-          <p>Placeholder: versionado de prompts, logging, evaluación, seguridad.</p>
-        </div>
-      </section>
 
-      <section id="pensar" className="section">
-        <div className="container">
-          <h2>Forma de Pensar</h2>
-          <p>Placeholder: cuándo NO usar GenAI, trade-offs, límites y riesgos.</p>
-        </div>
-      </section>
-
-      <section id="experiencia" className="section">
-        <div className="container">
-          <h2>Experiencia / Contexto</h2>
-          <p>Placeholder: Rol, qué construiste, contexto.</p>
-        </div>
-      </section>
 
       <section id="contacto" className="section">
         <div className="container">
