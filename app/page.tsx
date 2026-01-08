@@ -1,12 +1,14 @@
+import HeroSection from '../sections/HeroSection'
+
 export default function Home() {
   return (
     <main className="main">
-      <section id="hero" className="section">
-        <div className="container">
-          <h1>Hero Section</h1>
-          <p>Placeholder: aquí irá el hero con nombre, rol, headline y CTAs.</p>
-        </div>
-      </section>
+      <HeroSection
+        name="Maribel Bustamante Lenis"
+        githubUrl="https://github.com/marylenis"
+        cvUrl="#"
+        contactUrl="#"
+      />
 
       <section id="stack" className="section">
         <div className="container">
