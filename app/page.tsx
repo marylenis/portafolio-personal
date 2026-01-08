@@ -2,6 +2,7 @@ import HeroSection from '../sections/HeroSection'
 import StackSection from '../sections/StackSection'
 import ProjectsSection from '../sections/ProjectsSection'
 import AgentsSection from '../sections/AgentsSection'
+import ContactSection from '../sections/ContactSection'
 
 export default function Home() {
   return (
@@ -21,12 +22,7 @@ export default function Home() {
 
 
 
-      <section id="contacto" className="section">
-        <div className="container">
-          <h2>Contacto</h2>
-          <p>Placeholder: ¿Hablamos? Email y LinkedIn.</p>
-        </div>
-      </section>
+      <ContactSection />
     </main>
   )
 }
