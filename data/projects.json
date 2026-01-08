@@ -1,44 +1,74 @@
 [
   {
     "id": 1,
-    "title": "",
-    "problem": "",
-    "solution": "",
-    "architecture": [],
-    "technicalDecisions": [],
-    "result": "",
-    "learnings": "",
+    "title": "Enterprise RAG System for Internal Knowledge",
+    "problem": "Documentación dispersa y no consultable eficientemente.",
+    "solution": "Sistema RAG con control de fuentes y citación, optimizado para bajo coste y alta precisión.",
+    "architecture": [
+      "LLM: GPT-4 / Claude",
+      "RAG pipeline con re-ranking",
+      "Vector DB: Qdrant",
+      "API: FastAPI",
+      "Dockerized",
+      "Deploy en cloud / local"
+    ],
+    "technicalDecisions": [
+      "RAG vs fine-tuning para rapidez y control de fuentes",
+      "Estrategia de chunking y embeddings específicos",
+      "Manejo de errores y timeouts en la API",
+      "Cost control con caching y límites por usuario"
+    ],
+    "result": "Reducción de tiempo de búsqueda en 65% y menor carga al equipo de soporte.",
+    "learnings": "Afinar citación y cobertura de fuentes mejora la confianza del usuario final.",
     "links": {
-      "github": "",
-      "demo": ""
+      "github": "https://github.com/marylenis/portafolio-personal",
+      "demo": "#"
     }
   },
   {
     "id": 2,
-    "title": "",
-    "problem": "",
-    "solution": "",
-    "architecture": [],
-    "technicalDecisions": [],
-    "result": "",
-    "learnings": "",
+    "title": "Agentic Workflow Orchestrator",
+    "problem": "Automatizar decisiones operativas con múltiples fuentes de datos y APIs.",
+    "solution": "Orquestador multi-agente con LangGraph que consulta RAG, decide y ejecuta acciones en n8n.",
+    "architecture": [
+      "Agentes coordinados con LangGraph",
+      "RAG para contexto actualizado",
+      "n8n para ejecución de workflows y APIs externas",
+      "Observabilidad básica con logs estructurados"
+    ],
+    "technicalDecisions": [
+      "Roles claros por agente para evitar loops",
+      "Fallbacks y timeouts por paso",
+      "Controles de coste por cantidad de llamadas LLM"
+    ],
+    "result": "Automatizaciones redujeron tiempos operativos en 40% con menor intervención manual.",
+    "learnings": "Definir límites por agente y políticas de reintento reduce errores en cadena.",
     "links": {
-      "github": "",
-      "demo": ""
+      "github": "https://github.com/marylenis/portafolio-personal",
+      "demo": "#"
     }
   },
   {
     "id": 3,
-    "title": "",
-    "problem": "",
-    "solution": "",
-    "architecture": [],
-    "technicalDecisions": [],
-    "result": "",
-    "learnings": "",
+    "title": "Eval & Prompt Versioning Toolkit",
+    "problem": "Dificultad para medir calidad y versionar prompts en sistemas de GenAI.",
+    "solution": "Toolkit ligero con versionado de prompts, pruebas A/B y métricas básicas de calidad.",
+    "architecture": [
+      "Versionado de prompts (naming + metadata)",
+      "Suite de evals con casos sintéticos y reales",
+      "Métricas: exactitud, cobertura de fuentes, coste",
+      "Integración con CI para correr evals"
+    ],
+    "technicalDecisions": [
+      "Separar prompts de código para trazabilidad",
+      "Tests sintéticos para cambios rápidos",
+      "Alertas sobre degradación de métricas"
+    ],
+    "result": "Detección temprana de regresiones y reducción de iteraciones manuales.",
+    "learnings": "Evals ligeros y frecuentes evitan degradaciones silenciosas.",
     "links": {
-      "github": "",
-      "demo": ""
+      "github": "https://github.com/marylenis/portafolio-personal",
+      "demo": "#"
     }
   }
 ]
