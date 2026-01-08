@@ -8,41 +8,58 @@
   --color-text: #1a1a1a;
   --color-text-light: #666666;
   --color-border: #e0e0e0;
-  
+
   /* Tipografía */
   --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   --font-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas,
     'Courier New', monospace;
-  
+
   /* Tamaños de fuente */
-  --font-size-xs: 0.75rem;    /* 12px */
-  --font-size-sm: 0.875rem;    /* 14px */
-  --font-size-base: 1rem;      /* 16px */
-  --font-size-lg: 1.125rem;    /* 18px */
-  --font-size-xl: 1.25rem;     /* 20px */
-  --font-size-2xl: 1.5rem;     /* 24px */
-  --font-size-3xl: 1.875rem;   /* 30px */
-  --font-size-4xl: 2.25rem;    /* 36px */
-  --font-size-5xl: 3rem;       /* 48px */
-  
+  --font-size-xs: 0.75rem;
+  /* 12px */
+  --font-size-sm: 0.875rem;
+  /* 14px */
+  --font-size-base: 1rem;
+  /* 16px */
+  --font-size-lg: 1.125rem;
+  /* 18px */
+  --font-size-xl: 1.25rem;
+  /* 20px */
+  --font-size-2xl: 1.5rem;
+  /* 24px */
+  --font-size-3xl: 1.875rem;
+  /* 30px */
+  --font-size-4xl: 2.25rem;
+  /* 36px */
+  --font-size-5xl: 3rem;
+  /* 48px */
+
   /* Espaciado */
-  --spacing-xs: 0.25rem;   /* 4px */
-  --spacing-sm: 0.5rem;    /* 8px */
-  --spacing-md: 1rem;      /* 16px */
-  --spacing-lg: 1.5rem;     /* 24px */
-  --spacing-xl: 2rem;       /* 32px */
-  --spacing-2xl: 3rem;      /* 48px */
-  --spacing-3xl: 4rem;      /* 64px */
-  --spacing-4xl: 6rem;      /* 96px */
-  
+  --spacing-xs: 0.25rem;
+  /* 4px */
+  --spacing-sm: 0.5rem;
+  /* 8px */
+  --spacing-md: 1rem;
+  /* 16px */
+  --spacing-lg: 1.5rem;
+  /* 24px */
+  --spacing-xl: 2rem;
+  /* 32px */
+  --spacing-2xl: 3rem;
+  /* 48px */
+  --spacing-3xl: 4rem;
+  /* 64px */
+  --spacing-4xl: 6rem;
+  /* 96px */
+
   /* Breakpoints (para uso en media queries) */
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1280px;
-  
+
   /* Transiciones */
   --transition-fast: 150ms ease;
   --transition-base: 250ms ease;
@@ -156,7 +173,12 @@ body {
 }
 
 /* Tipografía */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   line-height: 1.2;
   color: var(--color-text);
@@ -585,15 +607,17 @@ a:hover {
 /* Responsive */
 @media (max-width: 768px) {
   :root {
-    --font-size-4xl: 1.875rem;  /* 30px */
-    --font-size-3xl: 1.5rem;     /* 24px */
-    --font-size-2xl: 1.25rem;    /* 20px */
+    --font-size-5xl: 2.5rem;
+    /* Adjusted for mobile */
+    --font-size-4xl: 2rem;
+    --font-size-3xl: 1.75rem;
+    --font-size-2xl: 1.5rem;
   }
-  
+
   .section {
     padding: var(--spacing-2xl) 0;
   }
-  
+
   .container {
     padding: 0 var(--spacing-md);
   }
@@ -623,14 +647,32 @@ a:hover {
   .hero__content {
     flex-direction: column;
     align-items: flex-start;
+    gap: var(--spacing-xl);
   }
 
   .hero__title {
-    font-size: var(--font-size-4xl);
+    font-size: var(--font-size-5xl);
   }
 
   .hero__headline {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-lg);
+  }
+
+  /* Stack Responsive */
+  .stack__grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  /* Projects Responsive */
+  .projects__header,
+  .stack__header,
+  .section-subtitle {
+    margin-bottom: var(--spacing-xl);
+  }
+
+  .project-card {
+    padding: var(--spacing-md);
   }
 }
 
