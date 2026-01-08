@@ -1,4 +1,6 @@
 import HeroSection from '../sections/HeroSection'
+import StackSection from '../sections/StackSection'
+import ProjectsSection from '../sections/ProjectsSection'
 
 export default function Home() {
   return (
@@ -10,19 +12,9 @@ export default function Home() {
         contactUrl="#"
       />
 
-      <section id="stack" className="section">
-        <div className="container">
-          <h2>Stack Técnico</h2>
-          <p>Placeholder: stack escaneable en 15 segundos.</p>
-        </div>
-      </section>
+      <StackSection />
 
-      <section id="proyectos" className="section">
-        <div className="container">
-          <h2>Proyectos</h2>
-          <p>Placeholder: tarjetas de proyectos end-to-end.</p>
-        </div>
-      </section>
+      <ProjectsSection />
 
       <section id="agentes" className="section">
         <div className="container">
