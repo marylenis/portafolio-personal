@@ -10,9 +10,6 @@ const navItems: NavItem[] = [
   { label: 'Stack', href: '#stack' },
   { label: 'Proyectos', href: '#proyectos' },
   { label: 'Agentes', href: '#agentes' },
-  { label: 'Producción', href: '#produccion' },
-  { label: 'Pensar', href: '#pensar' },
-  { label: 'Experiencia', href: '#experiencia' },
   { label: 'Contacto', href: '#contacto' },
 ]
 
